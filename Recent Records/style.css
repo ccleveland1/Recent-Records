@@ -21,7 +21,7 @@
 	font-weight: 550;
 	font-size: 12px;
 	line-height: 14px;
-	margin-top: 0px;
+	margin-top: 3px;
 	margin-bottom: 6px;
 	padding-bottom:3px;
 	padding-left: 10px;
@@ -67,18 +67,7 @@
 	top: 9px;
 	position: absolute;
 }
-.outer-container-2{
-	position: absolute;
-	width: 304px;
-	height: 370px;
-	left: 803px;
-	top: 90px;
-	background: #FFFFFF;
-	border: 1px solid #A6C9E2;
-	box-sizing: border-box;
-	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.35);
-	border-radius: 5px;
-}
+
 .title-2{
 	text-align: center;
 	padding-top: 10px;
@@ -114,21 +103,24 @@
     border-top: 1px solid #A6C9E2;
 }  
 .summary{
-	margin-left: 10px;
-	margin-right:5px;
+	margin-left: 18px;
+	margin-right:18px;
+	font-size: 12px;
+	color:#4B4A4A;
+}
+.summary-title{
+	margin-left: 18px;
+	margin-right:18px;
+	margin-top: 8px;
+	margin-bottom: 2px;
 	font-weight: bold;
 	font-size: 12px;
+	color: black;
 }
-.summary-body{
-	margin-left: 10px;
-	margin-right:5px;
-	font-size: 12px;
-	margin-top:5px;
-	margin-bottom: 5px;
-}
+
 .inner-container{
 	font-size: 12px;
-	margin-left: 20px;
+	/*margin-left: 10px;*/
 	font-weight: normal;
 	display:table-row;
     text-align: left;
@@ -136,12 +128,12 @@
 }
 .body-box{
 	width: 100%;
-	padding-left: 2%;
+	/*padding-left: 2%;*/
 }
 .column {
 	float: left;
 	width: 25%;
-	margin-left: 25px;
+	margin-left: 15px;
 	margin-top: 5px;
 	display: table;
 }
@@ -149,10 +141,22 @@
 .no-bold{
 	font-weight: 500;
 }
+.outer-container-2{
+	position: absolute;
+	width: 304px;
+	height: 345px;
+	left: 803px;
+	top: 90px;
+	background: #FFFFFF;
+	border: 1px solid #A6C9E2;
+	box-sizing: border-box;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.35);
+	border-radius: 5px;
+}
 .outer-container-3{
 	position: absolute;
 	width: 304px;
-	height: 370px;
+	height: 345px;
 	left: 803px;
 	top: 116px;
 	background: #FFFFFF;
@@ -164,7 +168,7 @@
 .outer-container-4{
 	position: absolute;
 	width: 304px;
-	height: 370px;
+	height: 345px;
 	left: 803px;
 	top: 136px;
 	background: #FFFFFF;
@@ -172,4 +176,11 @@
 	box-sizing: border-box;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.35);
 	border-radius: 5px;
+}
+.row{
+	margin-right:-15px;
+	margin-left: 5px;
+}
+.section-1{
+	margin-left: 18px;
 }
